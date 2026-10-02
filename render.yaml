@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: tungweb
+    runtime: node
+    buildCommand: "true"
+    startCommand: npm start
+    healthCheckPath: /health
